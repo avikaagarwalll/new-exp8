@@ -1,0 +1,6 @@
+
+# Use the official Nginx image as the base image
+FROM nginx
+
+# Copy the static web page files to the default Nginx directory
+COPY ./index1.html /usr/share/nginx/html
